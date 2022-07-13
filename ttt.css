@@ -1,0 +1,58 @@
+
+.chessboard {
+
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    border: 25px solid rgb(248, 222, 74);
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(179, 112, 25);
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    cursor: pointer;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(224, 190, 77);
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle; 
+    cursor: pointer;
+
+}
+
+.white:hover {
+
+    opacity: 0.5;
+    background-color: red;
+}
+
+.black:hover {
+
+    opacity: 0.5;
+    background-color: red;
+}
+
+
+#figurica:hover {
+
+  background-color: green;
+    
+
+}
+
+#figurica:active {
+
+    background-color: white;
+}
+
+
